@@ -1,2 +1,22 @@
-# yaml-converter
-yaml converter, which converts subscription links from xray, sing-box to yaml config, is able to transfer subscription data
+# ClashConfigManager
+Чтобы воспользоваться конвертором, нужно скачать rar отсюда. как работает? вы запускаете программу, в нее нужно вставить ссылку от xrat, sing-box или clash meta с hiddify manager.
+Убирает не нужные конфигурации и конвертирует в localhost по порту 8080.
+
+localhost:8080 -> зачем нужен хост? ответ:
+Программа запускает localhost, для того чтобы данные о подписке передовались в программы clash-meta.
+Весит программа около 50мб-+.
+
+-----
+
+Как пользоваться:
+1. Распаковать/Установить программу
+2. Запустить от (имени администратора)
+3. Вставить ссылку подписки с sing-box, clash-meta, xray
+4. Скопировать localhost
+5. Зайти в Clash Verge или его аналоги
+6. Включить ядро "Альфа или Смарт" в настройках
+7. Вставить ссылку на localhost
+
+-----
+
+ClashConfigManager можно поставить в автозапуск, также в ней отображется текущая подписка. 
